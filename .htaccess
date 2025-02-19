@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{http_host} ^tsfk9981.com
+RewriteRule ^(.*) https://tsfk.me/$1 [R=301,L]
